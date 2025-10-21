@@ -6,7 +6,7 @@
       - SCAICT 會長
       - 小小高中生
       - 甚麼都不會
-      - 資安只會Web
+      - 資安只會 Web
     right:
       - 會一點美術
       - 斜槓大師
@@ -59,8 +59,8 @@
     name_url: https://www.16personalities.com/tw/infp-%E6%80%A7%E6%A0%BC
   maxim:
     maxim_tips: 座右銘
-    maxim_top: 喵喵喵喵，
-    maxim_bottom: 喵喵喵喵。
+    maxim_top: 讓熱情驅動技術，
+    maxim_bottom: 用技術改變世界。
   buff:
     buff_tips: 特長
     buff_top: Bug 創造大師
