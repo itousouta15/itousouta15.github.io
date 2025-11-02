@@ -46,7 +46,7 @@ nav:
           icon: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/960px-Instagram_logo_2022.svg.png?20220518162235
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
-# 注意： 仅网站首页变灰，其他页面正常显示
+# 注意： 仅网站首頁变灰，其他页面正常显示
 mourn:
   enable: false
   days: [4-5, 5-12, 7-7, 9-18, 12-13]
@@ -726,7 +726,7 @@ h2Divider: false
 # 表格隔行变色
 table_interlaced_discoloration: false
 
-# 首页双栏显示
+# 首頁双栏显示
 article_double_row: true
 
 # The top_img settings of home page
@@ -737,7 +737,7 @@ index_site_info_top:
 index_top_img_height:
 
 # The user interface setting of category and tag page (category和tag页的UI设置)
-# index - same as Homepage UI (index 值代表 UI将与首页的UI一样)
+# index - same as Homepage UI (index 值代表 UI将与首頁的UI一样)
 # default - same as archives UI 默认跟archives页面UI一样
 category_ui: # 留空或 index
 tag_ui: # 留空或 index
@@ -1127,7 +1127,7 @@ Open_Graph_meta: true
 # Add the vendor prefixes to ensure compatibility
 css_prefix: true
 
-# 首页顶部相关配置
+# 首頁顶部相关配置
 home_top:
   enable: true # 开关
   timemode: date #date/updated
@@ -1280,7 +1280,7 @@ shortcutKey:
   delay: 100 # 所有键位延时触发而不是立即触发（包括shift，以解决和浏览器键位冲突问题）
   shiftDelay: 200 # shift按下延时多久开启
 
-# 无障碍优化（在首页按下「shift + ?」以查看效果）
+# 无障碍优化（在首頁按下「shift + ?」以查看效果）
 accesskey:
   enable: true
 
@@ -1303,7 +1303,7 @@ agreementPopup:
 rightClickMenu:
   enable: true
 
-# 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
+# 首頁随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
   enable: false
   img: https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png

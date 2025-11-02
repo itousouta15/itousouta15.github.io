@@ -4,10 +4,10 @@ if theme.aside.card_author.enable
       if theme.author_status.enable
         .author-info__sayhi#author-info__sayhi(onclick="anzhiyu.changeSayHelloText()")
       .author-info-avatar
-        img.avatar-img(src=url_for(theme.avatar.img) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt="avatar")
+        img.avatar-img(src=url_for(theme.avatar.img) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt="avatar" width="120" height="120")
         if theme.author_status.enable && theme.author_status.statusImg
           .author-status
-            img(src=url_for(theme.author_status.statusImg) class='g-status' alt="status")
+            img(src=url_for(theme.author_status.statusImg) class='g-status' alt="status" width="32" height="32")
 
       .author-info__description!= theme.aside.card_author.description || config.description
 

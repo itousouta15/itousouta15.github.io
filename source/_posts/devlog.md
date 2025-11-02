@@ -147,7 +147,7 @@ pretty_urls:
 **核心錯誤修復**：
 ```javascript
 // 修復前：TypeError - Cannot read properties of null
-const menuItem = document.querySelector("#首页");
+const menuItem = document.querySelector("#首頁");
 
 // 修復後：防禦式編程
 const menuItem = document.querySelector("#首頁");

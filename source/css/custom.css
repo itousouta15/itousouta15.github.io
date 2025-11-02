@@ -1,5 +1,42 @@
 /* 自定義樣式 - 解決關閉評論數量後間距問題 */
 
+/* 圖片優化 - 減少 CLS（累積版面配置轉移） */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 圖片骨架屏效果 - 在圖片加載前顯示背景色 */
+img:not([src]) {
+  visibility: hidden;
+}
+
+/* 懶加載圖片淡入效果 */
+img[loading="lazy"] {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+img[loading="lazy"].loaded,
+img[loading="lazy"]:not([loading]) {
+  opacity: 1;
+}
+
+/* 為圖片容器提供背景色，減少 CLS */
+.article-content img,
+.card-widget img,
+.comic-item-cover,
+.author-info-avatar img {
+  background: var(--anzhiyu-card-bg, #f6f8fa);
+}
+
+[data-theme="dark"] .article-content img,
+[data-theme="dark"] .card-widget img,
+[data-theme="dark"] .comic-item-cover,
+[data-theme="dark"] .author-info-avatar img {
+  background: var(--anzhiyu-card-bg, #1a1a1a);
+}
+
 /* 文章元數據區域間距調整 */
 .post-meta {
   margin-bottom: 1.5rem !important;

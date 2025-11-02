@@ -267,7 +267,7 @@ if site.data.about
                 each i in comic_list
                   a.comic-item(href=i.href, target="_blank", title=i.name)
                     .comic-item-cover
-                      img(src=i.cover, alt=i.name)
+                      img(src=i.cover, alt=i.name width="200" height="280")
       
       .author-content
         - let {music_tips, music_title, music_link, music_bg} = item.music

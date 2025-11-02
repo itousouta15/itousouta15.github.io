@@ -187,3 +187,21 @@ swpp:
   enable: false
   # 是否在发布前自动执行脚本
   # auto_exec: true
+
+# 壓縮優化設定
+# 需要安裝: npm install hexo-neat --save
+# 或者: npm install hexo-all-minifier --save
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  compress:
+  exclude:
+    - '*.min.js'
