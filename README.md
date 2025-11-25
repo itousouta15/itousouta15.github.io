@@ -10,8 +10,6 @@
 ![AnZhiYu Theme](https://img.shields.io/badge/Theme-AnZhiYu-ff69b4?style=for-the-badge)
 ![Status](https://img.shields.io/website?down_color=red&down_message=offline&style=for-the-badge&up_color=green&up_message=online&url=https%3A//itousouta15.tw)
 
-**專注於競賽程式設計與網頁開發的學生，展示各類專案、程式範例與技術文章**
-
 [🏠 訪問網站](https://itousouta15.tw) • [📖 閱讀文章](https://itousouta15.tw/archives/) • [👥 友鏈申請](https://itousouta15.tw/link/) • [💬 留言板](https://itousouta15.tw/comments/)
 
 </div>
