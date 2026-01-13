@@ -147,7 +147,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: /img/avatar.webp
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner image
@@ -869,7 +869,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: /img/avatar.webp
+  avatar: /img/avatar.jpg
 
 # aside (侧边栏)
 # --------------------------------------

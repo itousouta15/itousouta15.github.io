@@ -140,7 +140,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: /img/avatar.webp
+  img: /img/avatar.jpg
   effect: true
 
 # Disable all banner image
