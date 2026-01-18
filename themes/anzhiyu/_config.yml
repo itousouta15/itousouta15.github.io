@@ -30,12 +30,10 @@ nav:
       item:
         - name: 部落格
           link: https://blog.anheyu.com/
-          icon: /img/favicon.ico
     - title: 项目
       item:
         - name: 安知鱼图床
           link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首頁变灰，其他页面正常显示
