@@ -1,7 +1,7 @@
 ---
 title: FhCTF 11401
 date: 2026-01-01
-cover: /img/FhCTF.webp
+cover: /img/FhCTF.png
 categories:
   - 技術分享
 tags:
