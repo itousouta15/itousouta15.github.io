@@ -337,7 +337,7 @@ valine:
   pageSize: 10 # 評論列表分頁大小
   avatar: mp # Gravatar 頭像樣式: mp/identicon/monsterid/wavatar/retro/robohash/hide
   lang: zh-TW # 語言設置
-  placeholder: 💭 歡迎留言討論！請遵守網路禮儀～ # 評論框占位符
+  placeholder: 歡迎留言討論！請遵守網路禮儀 # 評論框占位符
   guest_info: nick,mail,link # 評論者信息字段 (nick/mail/link)
   recordIP: false # 是否記錄評論者 IP
   serverURLs: # 自定義域名（海外版會自動檢測，國內用戶可能需要配置）
@@ -407,7 +407,7 @@ waline:
     wordLimit: 0 # 評論字數限制，0 表示無限制
     pageSize: 10 # 評論列表分頁大小
     locale:
-      placeholder: "💭 歡迎留言討論！請遵守網路禮儀～"
+      placeholder: "歡迎留言討論！請遵守網路禮儀"
       sofa: "來做第一個評論的人吧！"
       submit: "提交"
       reply: "回覆"
@@ -576,8 +576,8 @@ footer:
     project:
       - title: 連結
         links:
-          - title: BLOG(舊站)
-            link: https://itousouta15.github.io/legacy-blog/
+          - title: BLOG
+            link: https://blog.itousouta15.tw
           - title: SCAICT 中電會
             link: https://SCAICT.org
       - title: 主題
