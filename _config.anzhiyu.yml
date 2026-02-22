@@ -21,8 +21,8 @@ nav:
   menu:
     - title: 網頁
       item:
-        - name: BLOG(舊站)
-          link: https://itousouta15.github.io/legacy-blog/
+        - name: BLOG
+          link: https://blog.itousouta15.tw
           icon: /img/banner.webp
         - name: SCAICT 中電會
           link: https://SCAICT.org
