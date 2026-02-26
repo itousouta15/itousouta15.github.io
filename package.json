@@ -34,7 +34,7 @@
     "hexo-theme-landscape": "^1.0.0",
     "hexo-wordcount": "^6.0.1",
     "pwa-asset-generator": "^8.1.2",
-    "strip-ansi": "7.1.2",
+    "strip-ansi": "7.2.0",
     "swpp-backends": "^3.0.0-alpha.908"
   }
 }
